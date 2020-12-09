@@ -1,0 +1,635 @@
+﻿#;domain;problem;run-on;heuristic;search-strategy;tot-time;search-time;peak-memory (KB);generated;evaluated;expanded;%expanded;coverage;length;cost;%used;solution-quality;dead-ends;success (1-success, 0-failure)
+;din phil;instance 1;Gurpreet;add;eager_greedy;0.0100507s;0.0029334s;56128;90;82;41;45,56%;;22;22;53,66%;1;20;1
+;din phil;instance 2;Gurpreet;add;eager_greedy;0.0069334s;0.0030344s;56260;187;168;55;29,41%;;33;33;60,00%;1;43;1
+;din phil;instance 3;Gurpreet;add;eager_greedy;0.0238889s;0.0170393s;56272;404;327;86;21,29%;;44;44;51,16%;1;101;1
+;din phil;instance 4;Gurpreet;add;eager_greedy;0.0304172s;0.0202531s;56392;905;609;151;16,69%;;55;55;36,42%;1;215;1
+;din phil;instance 5;Gurpreet;add;eager_greedy;0.0379332s;0.0292047s;56392;2363;1140;318;13,46%;;66;66;20,75%;1;458;1
+;din phil;instance 6;Gurpreet;add;eager_greedy;0.0704992s;0.062507s;56524;7018;2315;791;11,27%;;77;77;9,73%;1;1015;1
+;din phil;instance 7;Gurpreet;add;eager_greedy;0.864016s;0.852049s;56796;22424;5226;2182;9,73%;;88;88;4,03%;1;2366;1
+;din phil;instance 8;Gurpreet;add;eager_greedy;0.343933s;0.333284s;57252;73691;12985;6327;8,59%;;99;99;1,56%;1;5787;1
+;din phil;instance 9;Gurpreet;add;eager_greedy;1.01808s;1.00136s;58800;243493;34572;18734;7,69%;;110;110;0,59%;1;14750;1
+;din phil;instance 10;Gurpreet;add;eager_greedy;3.4266s;3.41264s;62252;801885;96160;55927;6,97%;;121;121;0,22%;1;38907;1
+;din phil;instance 11;Gurpreet;add;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;1611412;0
+;din phil;instance 12;Gurpreet;add;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;1477170;0
+;din phil;instance 13;Gurpreet;add;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;1384753;0
+;din phil;instance 14;Gurpreet;add;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;1103842;0
+;din phil;instance 15;Gurpreet;add;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;1203743;0
+;din phil;instance 16;Gurpreet;add;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;903743;0
+;din phil;instance 17;Gurpreet;add;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;830684;0
+;din phil;instance 18;Gurpreet;add;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;732364;0
+;din phil;instance 19;Gurpreet;add;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;1192374;0
+;din phil;instance 20;Gurpreet;add;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;1283745;0
+;din phil;instance 1;Gurpreet;cg;eager_greedy;0.0091043s;0.0020047s;56260;127;107;63;49,61%;;22;22;34,92%;1;4;1
+;din phil;instance 2;Gurpreet;cg;eager_greedy;0.0179058s;0.0110045s;56260;329;281;99;30,09%;;33;33;33,33%;1;40;1
+;din phil;instance 3;Gurpreet;cg;eager_greedy;0.0317582s;0.0242723s;56338;770;503;178;23,12%;;44;44;24,72%;1;112;1
+;din phil;instance 4;Gurpreet;cg;eager_greedy;0.0458869s;0.0352543s;56524;2548;1221;461;18,09%;;55;55;11,93%;1;403;1
+;din phil;instance 5;Gurpreet;cg;eager_greedy;0.0834739s;0.0724495s;56656;9051;3078;1324;14,63%;;66;66;4,98%;1;1229;1
+;din phil;instance 6;Gurpreet;cg;eager_greedy;0.206829s;0.196101s;57076;32645;8209;3999;12,25%;;77;77;1,93%;1;3487;1
+;din phil;instance 7;Gurpreet;cg;eager_greedy;0.643389s;0.629202s;57992;116982;22905;12326;10,54%;;88;88;0,71%;1;9628;1
+;din phil;instance 8;Gurpreet;cg;eager_greedy;2.1989s;2.1804s;60908;413778;65970;38257;9,25%;;99;99;0,26%;1;26504;1
+;din phil;instance 9;Gurpreet;cg;eager_greedy;7.45897s;7.44215s;68192;1443917;194132;118944;8,24%;;110;110;0,09%;1;73691;1
+;din phil;instance 10;Gurpreet;cg;eager_greedy;2.59847s;2.57587s;527977;68635;192400;38048;55,44%;;121;121;0,32%;1;28926;1
+;din phil;instance 11;Gurpreet;cg;eager_greedy;21.3818s;21.3525s;95112;3922900;578067;248014;6,32%;;132;132;0,05%;1;327862;1
+;din phil;instance 12;Gurpreet;cg;eager_greedy;51.1632s;51.1274s;140984;10322625;1221145;602079;5,83%;;143;143;0,02%;1;616455;1
+;din phil;instance 13;Gurpreet;cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;916029;0
+;din phil;instance 14;Gurpreet;cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;114148;0
+;din phil;instance 15;Gurpreet;cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;115765;0
+;din phil;instance 16;Gurpreet;cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;122423;0
+;din phil;instance 17;Gurpreet;cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;127463;0
+;din phil;instance 18;Gurpreet;cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;1384732;0
+;din phil;instance 19;Gurpreet;cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;1234753;0
+;din phil;instance 20;Gurpreet;cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;1138475;0
+;din phil;instance 1;Gurpreet;add+cg;eager_greedy;0.0176312s;0.0056903s;56280;94;84;45;47,87%;;22;22;48,89%;1;3;1
+;din phil;instance 2;Gurpreet;add+cg;eager_greedy;0.0199913s;0.0102083s;56384;205;180;61;29,76%;;33;33;54,10%;1;17;1
+;din phil;instance 3;Gurpreet;add+cg;eager_greedy;0.0237981s;0.0153793s;56392;444;350;96;21,62%;;44;44;45,83%;1;51;1
+;din phil;instance 4;Gurpreet;add+cg;eager_greedy;0.057309s;0.0461184s;56524;982;655;167;17,01%;;55;55;32,93%;1;138;1
+;din phil;instance 5;Gurpreet;add+cg;eager_greedy;0.0981273s;0.0823963s;56660;2573;1233;352;13,68%;;66;66;18,75%;1;364;1
+;din phil;instance 6;Gurpreet;add+cg;eager_greedy;0.144183s;0.12832s;56792;7244;2392;826;11,40%;;77;77;9,32%;1;853;1
+;din phil;instance 7;Gurpreet;add+cg;eager_greedy;0.294052s;0.27944s;57192;22685;5312;2217;9,77%;;104;104;4,69%;1;2154;1
+;din phil;instance 8;Gurpreet;add+cg;eager_greedy;0.690659s;0.670831s;57756;73960;13079;6359;8,60%;;115;115;1,81%;1;5518;1
+;din phil;instance 9;Gurpreet;add+cg;eager_greedy;2.10036s;2.07172s;59620;249973;35906;19343;7,74%;;142;142;0,73%;1;15036;1
+;din phil;instance 10;Gurpreet;add+cg;eager_greedy;5.67208s;5.64207s;63800;802304;96337;55961;6,98%;;121;121;0,22%;1;38626;1
+;din phil;instance 11;Gurpreet;add+cg;eager_greedy;120.037s;120.002s;200620;15320262;2009095;957764;6,25%;;132;132;0,01%;1;1046155;1
+;din phil;instance 12;Gurpreet;add+cg;eager_greedy;120.045s;120.002s;208248;15755234;1854884;912947;5,79%;;143;143;0,02%;1;938644;1
+;din phil;instance 13;Gurpreet;add+cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;816967;0
+;din phil;instance 14;Gurpreet;add+cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;723679;0
+;din phil;instance 15;Gurpreet;add+cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;636461;0
+;din phil;instance 16;Gurpreet;add+cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;850283;0
+;din phil;instance 17;Gurpreet;add+cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;823742;0
+;din phil;instance 18;Gurpreet;add+cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;812673;0
+;din phil;instance 19;Gurpreet;add+cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;792374;0
+;din phil;instance 20;Gurpreet;add+cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;7102473;0
+;din phil;instance 1;Gurpreet;add;lazy_greedy;0.0097364s;0.0018139s;56128;109;73;56;51,38%;;22;22;39,29%;1;16;1
+;din phil;instance 2;Gurpreet;add;lazy_greedy;0.0134421s;0.0075431s;56260;303;140;105;34,65%;;33;33;31,43%;1;33;1
+;din phil;instance 3;Gurpreet;add;lazy_greedy;0.0152219s;0.0070304s;56260;743;272;187;25,17%;;44;44;23,53%;1;84;1
+;din phil;instance 4;Gurpreet;add;lazy_greedy;0.0202489s;0.0124722s;56392;1646;509;318;19,32%;;55;55;17,30%;1;190;1
+;din phil;instance 5;Gurpreet;add;lazy_greedy;0.0410046s;0.0314648s;56396;3736;1011;567;15,18%;;66;66;11,64%;1;443;1
+;din phil;instance 6;Gurpreet;add;lazy_greedy;0.0715858s;0.0641619s;56524;9304;2133;1138;12,23%;;77;77;6,77%;1;994;1
+;din phil;instance 7;Gurpreet;add;lazy_greedy;0.183103s;0.168665s;56796;25955;4982;2643;10,18%;;88;88;3,33%;1;2338;1
+;din phil;instance 8;Gurpreet;add;lazy_greedy;0.432402s;0.418107s;57260;78850;12670;6918;8,77%;;99;99;1,43%;1;5751;1
+;din phil;instance 9;Gurpreet;add;lazy_greedy;1.46816s;1.4552s;58808;250714;34177;19471;7,77%;;110;110;0,56%;1;14705;1
+;din phil;instance 10;Gurpreet;add;lazy_greedy;4.29195s;4.27724s;62212;811624;95677;56824;7,00%;;121;121;0,21%;1;38852;1
+;din phil;instance 11;Gurpreet;add;lazy_greedy;;;;;;;;;;;;;1372766;0
+;din phil;instance 12;Gurpreet;add;lazy_greedy;;;;;;;;;;;;;1169369;0
+;din phil;instance 13;Gurpreet;add;lazy_greedy;;;;;;;;;;;;;1065663;0
+;din phil;instance 14;Gurpreet;add;lazy_greedy;;;;;;;;;;;;;927374;0
+;din phil;instance 15;Gurpreet;add;lazy_greedy;;;;;;;;;;;;;917374;0
+;din phil;instance 16;Gurpreet;add;lazy_greedy;;;;;;;;;;;;;827472;0
+;din phil;instance 17;Gurpreet;add;lazy_greedy;;;;;;;;;;;;;8127742;0
+;din phil;instance 18;Gurpreet;add;lazy_greedy;;;;;;;;;;;;;7928374;0
+;din phil;instance 19;Gurpreet;add;lazy_greedy;;;;;;;;;;;;;7293747;0
+;din phil;instance 20;Gurpreet;add;lazy_greedy;;;;;;;;;;;;;6917347;0
+;din phil;instance 1;Gurpreet;cg;lazy_greedy;0.0088661s;0.0019498s;56260;162;101;96;59,26%;;22;22;22,92%;1;4;1
+;din phil;instance 2;Gurpreet;cg;lazy_greedy;0.0218975s;0.0119188s;56260;557;268;228;40,93%;;33;33;14,47%;1;39;1
+;din phil;instance 3;Gurpreet;cg;lazy_greedy;0.0299131s;0.0200329s;56338;1382;477;363;26,27%;;44;44;12,12%;1;113;1
+;din phil;instance 4;Gurpreet;cg;lazy_greedy;0.0529697s;0.0435183s;56524;4215;1231;815;19,34%;;55;55;6,75%;1;415;1
+;din phil;instance 5;Gurpreet;cg;lazy_greedy;0.115444s;0.104098s;56656;13412;3304;2028;15,12%;;66;66;3,25%;1;1275;1
+;din phil;instance 6;Gurpreet;cg;lazy_greedy;0.393207s;0.378474s;57076;44087;9118;5495;12,46%;;77;77;1,40%;1;3622;1
+;din phil;instance 7;Gurpreet;cg;lazy_greedy;0.929753s;0.914684s;58136;149772;25912;15932;10,64%;;88;88;0,55%;1;9979;1
+;din phil;instance 8;Gurpreet;cg;lazy_greedy;3.08422s;3.06828s;61212;514882;75242;47883;9,30%;;99;99;0,21%;1;27358;1
+;din phil;instance 9;Gurpreet;cg;lazy_greedy;11.3275s;11.3095s;73248;1768600;221964;146276;8,27%;;110;110;0,08%;1;75687;1
+;din phil;instance 10;Gurpreet;cg;lazy_greedy;4.30421s;4.28217s;63192;669122;96107;47966;7,17%;;121;121;0,25%;1;48140;1
+;din phil;instance 11;Gurpreet;cg;lazy_greedy;27.832s;27.8017s;96976;4089735;614448;258365;6,32%;;132;132;0,05%;1;356082;1
+;din phil;instance 12;Gurpreet;cg;lazy_greedy;65.9784s;65.9404s;143576;1513889;1266530;612751;40,48%;;143;143;0,02%;1;653778;1
+;din phil;instance 13;Gurpreet;cg;lazy_greedy;;;;;;;;;;;;;537639;0
+;din phil;instance 14;Gurpreet;cg;lazy_greedy;;;;;;;;;;;;;112720;0
+;din phil;instance 15;Gurpreet;cg;lazy_greedy;;;;;;;;;;;;;172837;0
+;din phil;instance 16;Gurpreet;cg;lazy_greedy;;;;;;;;;;;;;129384;0
+;din phil;instance 17;Gurpreet;cg;lazy_greedy;;;;;;;;;;;;;128345;0
+;din phil;instance 18;Gurpreet;cg;lazy_greedy;;;;;;;;;;;;;1134773;0
+;din phil;instance 19;Gurpreet;cg;lazy_greedy;;;;;;;;;;;;;1395832;0
+;din phil;instance 20;Gurpreet;cg;lazy_greedy;;;;;;;;;;;;;1458372;0
+;din phil;instance 1;Gurpreet;add+cg;lazy_greedy;0.0175355s;0.0076672s;56280;124;77;73;58,87%;;22;22;30,14%;1;3;1
+;din phil;instance 2;Gurpreet;add+cg;lazy_greedy;0.0245997s;0.0141625s;56388;365;152;135;36,99%;;33;33;24,44%;1;16;1
+;din phil;instance 3;Gurpreet;add+cg;lazy_greedy;0.0290074s;0.0196223s;56392;959;293;243;25,34%;;44;44;18,11%;1;49;1
+;din phil;instance 4;Gurpreet;add+cg;lazy_greedy;0.0501251s;0.0381694s;56524;2157;548;412;19,10%;;55;55;13,35%;1;135;1
+;din phil;instance 5;Gurpreet;add+cg;lazy_greedy;0.0973422s;0.0795688s;56660;4890;1064;728;14,89%;;66;66;9,07%;1;335;1
+;din phil;instance 6;Gurpreet;add+cg;lazy_greedy;0.141747s;0.131237s;56924;11468;2273;1388;12,10%;;77;77;5,55%;1;884;1
+;din phil;instance 7;Gurpreet;add+cg;lazy_greedy;0.37672s;0.353401s;57184;29815;5291;3030;10,16%;;104;104;3,43%;1;2260;1
+;din phil;instance 8;Gurpreet;add+cg;lazy_greedy;1.04218s;1.01848s;57852;85360;13249;7505;8,79%;;115;115;1,53%;1;5743;1
+;din phil;instance 9;Gurpreet;add+cg;lazy_greedy;3.50361s;3.48015s;59752;263526;35594;20542;7,80%;;142;142;0,69%;1;15051;1
+;din phil;instance 10;Gurpreet;add+cg;lazy_greedy;8.84897s;8.82273s;63924;821130;96589;57456;7,00%;;121;121;0,21%;1;39132;1
+;din phil;instance 11;Gurpreet;add+cg;lazy_greedy;120.035s;120s;145824;9991444;1295765;626610;6,27%;;132;132;0,02%;1;669155;1
+;din phil;instance 12;Gurpreet;add+cg;lazy_greedy;120.017s;120.002s;208248;15755234;1854884;912947;5,79%;;143;143;0,02%;1;938644;1
+;din phil;instance 13;Gurpreet;add+cg;lazy_greedy;;;;;;;;;;;;;;0
+;din phil;instance 14;Gurpreet;add+cg;lazy_greedy;;;;;;;;;;;;;;0
+;din phil;instance 15;Gurpreet;add+cg;lazy_greedy;;;;;;;;;;;;;;0
+;din phil;instance 16;Gurpreet;add+cg;lazy_greedy;;;;;;;;;;;;;;0
+;din phil;instance 17;Gurpreet;add+cg;lazy_greedy;;;;;;;;;;;;;;0
+;din phil;instance 18;Gurpreet;add+cg;lazy_greedy;;;;;;;;;;;;;;0
+;din phil;instance 19;Gurpreet;add+cg;lazy_greedy;;;;;;;;;;;;;;0
+;din phil;instance 20;Gurpreet;add+cg;lazy_greedy;;;;;;;;;;;;;;0
+;gripper;instance 1;Cheran;add;eager_greedy;0.00636246s;0.00312377s;56124;67;54;16;23,88%;;15;15;93,75%;1;0;1
+;gripper;instance 2;Cheran;add;eager_greedy;0.00833399s;0.0039646s;56124;137;116;24;17,52%;;23;23;95,83%;1;0;1
+;gripper;instance 3;Cheran;add;eager_greedy;0.00912051s;0.0054305s;56124;231;202;32;13,85%;;31;31;96,88%;1;0;1
+;gripper;instance 4;Cheran;add;eager_greedy;0.0114457s;0.00706827s;56124;349;312;40;11,46%;;39;39;97,50%;1;0;1
+;gripper;instance 5;Cheran;add;eager_greedy;0.0146569s;0.0108606s;56124;491;446;48;9,78%;;47;47;97,92%;1;0;1
+;gripper;instance 6;Cheran;add;eager_greedy;0.016359s;0.0119677s;56256;657;604;56;8,52%;;55;55;98,21%;1;0;1
+;gripper;instance 7;Cheran;add;eager_greedy;0.0183554s;0.0146417s;56260;847;786;64;7,56%;;63;63;98,44%;1;0;1
+;gripper;instance 8;Cheran;add;eager_greedy;0.0201536s;0.0163273s;56256;1061;992;72;6,79%;;71;71;98,61%;1;0;1
+;gripper;instance 9;Cheran;add;eager_greedy;0.028364s;0.0241242s;56256;1299;1222;80;6,16%;;79;79;98,75%;1;0;1
+;gripper;instance 10;Cheran;add;eager_greedy;0.0314724s;0.0264779s;56256;1561;1476;88;5,64%;;87;87;98,86%;1;0;1
+;gripper;instance 11;Cheran;add;eager_greedy;0.0338946s;0.0296422s;56260;1847;1754;96;5,20%;;95;95;98,96%;1;0;1
+;gripper;instance 12;Cheran;add;eager_greedy;0.0389463s;0.0349406s;56388;2157;2056;104;4,82%;;103;103;99,04%;1;0;1
+;gripper;instance 13;Cheran;add;eager_greedy;0.0524008s;0.0473214s;56392;2491;2382;112;4,50%;;111;111;99,11%;1;0;1
+;gripper;instance 14;Cheran;add;eager_greedy;0.0518667s;0.047149s;56404;2849;2732;120;4,21%;;119;119;99,17%;1;0;1
+;gripper;instance 15;Cheran;add;eager_greedy;0.0555301s;0.0504814s;56400;3231;3106;128;3,96%;;127;127;99,22%;1;0;1
+;gripper;instance 16;Cheran;add;eager_greedy;0.0709125s;0.0651047s;56408;3637;3504;136;3,74%;;135;135;99,26%;1;0;1
+;gripper;instance 17;Cheran;add;eager_greedy;0.0726615s;0.0672854s;56388;4067;3926;144;3,54%;;143;143;99,31%;1;0;1
+;gripper;instance 18;Cheran;add;eager_greedy;0.0803265s;0.0756952s;56544;4521;4372;152;3,36%;;151;151;99,34%;1;0;1
+;gripper;instance 19;Cheran;add;eager_greedy;0.0953229s;0.090812s;56552;4999;4842;160;3,20%;;159;159;99,38%;1;0;1
+;gripper;instance 20;Cheran;add;eager_greedy;0.104903s;0.0994127s;56524;5501;5336;168;3,05%;;167;167;99,40%;1;0;1
+;gripper;instance 1;Cheran;add+cg;eager_greedy;0.00837163s;0.00439874s;56124;73;56;19;26,03%;;15;15;78,95%;1;0;1
+;gripper;instance 2;Cheran;add+cg;eager_greedy;0.010535s;0.00651444s;56260;152;125;29;19,08%;;23;23;79,31%;1;0;1
+;gripper;instance 3;Cheran;add+cg;eager_greedy;0.0119675s;0.00784864s;56256;259;222;39;15,06%;;31;31;79,49%;1;0;1
+;gripper;instance 4;Cheran;add+cg;eager_greedy;0.0129306s;0.00908881s;56392;394;347;49;12,44%;;39;39;79,59%;1;0;1
+;gripper;instance 5;Cheran;add+cg;eager_greedy;0.0206503s;0.0154463s;56540;557;500;59;10,59%;;47;47;79,66%;1;0;1
+;gripper;instance 6;Cheran;add+cg;eager_greedy;0.0241928s;0.0189112s;56692;748;681;69;9,22%;;55;55;79,71%;1;0;1
+;gripper;instance 7;Cheran;add+cg;eager_greedy;0.0260751s;0.0210768s;56960;967;890;79;8,17%;;63;63;79,75%;1;0;1
+;gripper;instance 8;Cheran;add+cg;eager_greedy;0.0358135s;0.0304696s;57268;1214;1127;89;7,33%;;71;71;79,78%;1;0;1
+;gripper;instance 9;Cheran;add+cg;eager_greedy;0.0417935s;0.035706s;57624;1489;1392;99;6,65%;;79;79;79,80%;1;0;1
+;gripper;instance 10;Cheran;add+cg;eager_greedy;0.0453332s;0.0395035s;58024;1792;1685;109;6,08%;;87;87;79,82%;1;0;1
+;gripper;instance 11;Cheran;add+cg;eager_greedy;0.0537196s;0.0483699s;58472;2123;2006;119;5,61%;;95;95;79,83%;1;0;1
+;gripper;instance 12;Cheran;add+cg;eager_greedy;0.0555014s;0.0498305s;59172;2482;2355;129;5,20%;;103;103;79,84%;1;0;1
+;gripper;instance 13;Cheran;add+cg;eager_greedy;0.0738822s;0.0664006s;59860;2869;2732;139;4,84%;;111;111;79,86%;1;0;1
+;gripper;instance 14;Cheran;add+cg;eager_greedy;0.0831501s;0.0744061s;60616;3284;3137;149;4,54%;;119;119;79,87%;1;0;1
+;gripper;instance 15;Cheran;add+cg;eager_greedy;0.098228s;0.0877863s;61436;3727;3570;159;4,27%;;127;127;79,87%;1;0;1
+;gripper;instance 16;Cheran;add+cg;eager_greedy;0.114053s;0.102752s;62580;4198;4031;169;4,03%;;135;135;79,88%;1;0;1
+;gripper;instance 17;Cheran;add+cg;eager_greedy;0.132854s;0.122811s;63628;4697;4520;179;3,81%;;143;143;79,89%;1;0;1
+;gripper;instance 18;Cheran;add+cg;eager_greedy;0.136002s;0.125283s;64964;5224;5037;189;3,62%;;151;151;79,89%;1;0;1
+;gripper;instance 19;Cheran;add+cg;eager_greedy;0.155609s;0.144168s;66356;5779;5582;199;3,44%;;159;159;79,90%;1;0;1
+;gripper;instance 20;Cheran;add+cg;eager_greedy;0.189358s;0.17709s;67944;6362;6155;209;3,29%;;167;167;79,90%;1;0;1
+;gripper;instance 1;Cheran;cg;eager_greedy;0.00599069s;0.00276561s;56124;79;57;21;26,58%;;15;15;71,43%;1;0;1
+;gripper;instance 2;Cheran;cg;eager_greedy;0.00583739s;0.0026975s;56256;204;142;41;20,10%;;23;23;56,10%;1;0;1
+;gripper;instance 3;Cheran;cg;eager_greedy;0.0100249s;0.00607126s;56256;429;287;69;16,08%;;31;31;44,93%;1;0;1
+;gripper;instance 4;Cheran;cg;eager_greedy;0.0103529s;0.00683154s;56388;786;508;105;13,36%;;39;39;37,14%;1;0;1
+;gripper;instance 5;Cheran;cg;eager_greedy;0.0132329s;0.00884935s;56540;1307;821;149;11,40%;;47;47;31,54%;1;0;1
+;gripper;instance 6;Cheran;cg;eager_greedy;0.0140877s;0.0098023s;56684;2024;1242;201;9,93%;;55;55;27,36%;1;0;1
+;gripper;instance 7;Cheran;cg;eager_greedy;0.0167195s;0.0127609s;56984;2969;1787;261;8,79%;;63;63;24,14%;1;0;1
+;gripper;instance 8;Cheran;cg;eager_greedy;0.023168s;0.0177788s;57304;4174;2472;329;7,88%;;71;71;21,58%;1;0;1
+;gripper;instance 9;Cheran;cg;eager_greedy;0.0270901s;0.0217204s;57600;5671;3313;405;7,14%;;79;79;19,51%;1;0;1
+;gripper;instance 10;Cheran;cg;eager_greedy;0.0327799s;0.0272262s;58056;7492;4326;489;6,53%;;87;87;17,79%;1;0;1
+;gripper;instance 11;Cheran;cg;eager_greedy;0.0410634s;0.0357372s;58580;9669;5527;581;6,01%;;95;95;16,35%;1;0;1
+;gripper;instance 12;Cheran;cg;eager_greedy;0.0502583s;0.0437697s;59268;12234;6932;681;5,57%;;103;103;15,12%;1;0;1
+;gripper;instance 13;Cheran;cg;eager_greedy;0.0533867s;0.0466561s;60044;15219;8557;789;5,18%;;111;111;14,07%;1;0;1
+;gripper;instance 14;Cheran;cg;eager_greedy;0.0673888s;0.0596362s;60840;18656;10418;905;4,85%;;119;119;13,15%;1;0;1
+;gripper;instance 15;Cheran;cg;eager_greedy;0.0734632s;0.0660075s;61828;22577;12531;1029;4,56%;;127;127;12,34%;1;0;1
+;gripper;instance 16;Cheran;cg;eager_greedy;0.0996709s;0.0909655s;62928;27014;14912;1161;4,30%;;135;135;11,63%;1;0;1
+;gripper;instance 17;Cheran;cg;eager_greedy;0.116252s;0.106687s;64296;31999;17577;1301;4,07%;;143;143;10,99%;1;0;1
+;gripper;instance 18;Cheran;cg;eager_greedy;0.130923s;0.12051s;65556;37564;20542;1449;3,86%;;151;151;10,42%;1;0;1
+;gripper;instance 19;Cheran;cg;eager_greedy;0.163265s;0.151631s;67084;43741;23823;1605;3,67%;;159;159;9,91%;1;0;1
+;gripper;instance 20;Cheran;cg;eager_greedy;0.168301s;0.157044s;68796;50562;27436;1769;3,50%;;167;167;9,44%;1;0;1
+;gripper;instance 1;Cheran;add;lazy_greedy;0.00598484s;0.0028875s;56124;99;26;25;25,25%;;15;15;60,00%;1;0;1
+;gripper;instance 2;Cheran;add;lazy_greedy;0.00587447s;0.00314074s;56124;258;50;49;18,99%;;23;23;46,94%;1;0;1
+;gripper;instance 3;Cheran;add;lazy_greedy;0.00809551s;0.00509568s;56124;533;82;81;15,20%;;31;31;38,27%;1;0;1
+;gripper;instance 4;Cheran;add;lazy_greedy;0.0126098s;0.00832201s;56124;956;122;121;12,66%;;39;39;32,23%;1;0;1
+;gripper;instance 5;Cheran;add;lazy_greedy;0.0116756s;0.00793535s;56124;1559;170;169;10,84%;;47;47;27,81%;1;0;1
+;gripper;instance 6;Cheran;add;lazy_greedy;0.0140665s;0.00959476s;56124;2374;226;225;9,48%;;55;55;24,44%;1;0;1
+;gripper;instance 7;Cheran;add;lazy_greedy;0.0198675s;0.0154525s;56256;3433;290;289;8,42%;;63;63;21,80%;1;0;1
+;gripper;instance 8;Cheran;add;lazy_greedy;0.0185813s;0.0149703s;56256;4768;362;361;7,57%;;71;71;19,67%;1;0;1
+;gripper;instance 9;Cheran;add;lazy_greedy;0.0210684s;0.0166474s;56256;6411;442;441;6,88%;;79;79;17,91%;1;0;1
+;gripper;instance 10;Cheran;add;lazy_greedy;0.0259811s;0.0216295s;56256;8394;530;529;6,30%;;87;87;16,45%;1;0;1
+;gripper;instance 11;Cheran;add;lazy_greedy;0.0256968s;0.0217506s;56260;10749;626;625;5,81%;;95;95;15,20%;1;0;1
+;gripper;instance 12;Cheran;add;lazy_greedy;0.0284275s;0.0236912s;56256;13508;730;729;5,40%;;103;103;14,13%;1;0;1
+;gripper;instance 13;Cheran;add;lazy_greedy;0.029894s;0.0253556s;56260;16703;842;841;5,04%;;111;111;13,20%;1;0;1
+;gripper;instance 14;Cheran;add;lazy_greedy;0.0340693s;0.0297316s;56268;20366;962;961;4,72%;;119;119;12,38%;1;0;1
+;gripper;instance 15;Cheran;add;lazy_greedy;0.0358692s;0.0316517s;56388;24529;1090;1089;4,44%;;127;127;11,66%;1;0;1
+;gripper;instance 16;Cheran;add;lazy_greedy;0.037931s;0.0334357s;56388;29224;1226;1225;4,19%;;135;135;11,02%;1;0;1
+;gripper;instance 17;Cheran;add;lazy_greedy;0.0454722s;0.0409155s;56524;34483;1370;1369;3,97%;;143;143;10,45%;1;0;1
+;gripper;instance 18;Cheran;add;lazy_greedy;0.0504711s;0.0453208s;56516;40338;1522;1521;3,77%;;151;151;9,93%;1;0;1
+;gripper;instance 19;Cheran;add;lazy_greedy;0.0553805s;0.050367s;56644;46821;1682;1681;3,59%;;159;159;9,46%;1;0;1
+;gripper;instance 20;Cheran;add;lazy_greedy;0.0578213s;0.0526765s;56644;53964;1850;1849;3,43%;;167;167;9,03%;1;0;1
+;gripper;instance 1;Cheran;add+cg;lazy_greedy;0.00674073s;0.00300784s;56124;114;30;29;25,44%;;15;15;51,72%;1;0;1
+;gripper;instance 2;Cheran;add+cg;lazy_greedy;0.0116114s;0.00682431s;56256;289;58;57;19,72%;;23;23;40,35%;1;0;1
+;gripper;instance 3;Cheran;add+cg;lazy_greedy;0.0111465s;0.00660613s;56256;580;94;93;16,03%;;31;31;33,33%;1;0;1
+;gripper;instance 4;Cheran;add+cg;lazy_greedy;0.0114441s;0.00767827s;56392;1019;138;137;13,44%;;39;39;28,47%;1;0;1
+;gripper;instance 5;Cheran;add+cg;lazy_greedy;0.0139635s;0.0100223s;56540;1638;190;189;11,54%;;47;47;24,87%;1;0;1
+;gripper;instance 6;Cheran;add+cg;lazy_greedy;0.0193856s;0.0145805s;56696;2469;250;249;10,09%;;55;55;22,09%;1;0;1
+;gripper;instance 7;Cheran;add+cg;lazy_greedy;0.0220937s;0.0170565s;56960;3544;318;317;8,94%;;63;63;19,87%;1;0;1
+;gripper;instance 8;Cheran;add+cg;lazy_greedy;0.0247207s;0.0188236s;57268;4895;394;393;8,03%;;71;71;18,07%;1;0;1
+;gripper;instance 9;Cheran;add+cg;lazy_greedy;0.0286922s;0.0236515s;57620;6554;478;477;7,28%;;79;79;16,56%;1;0;1
+;gripper;instance 10;Cheran;add+cg;lazy_greedy;0.033362s;0.0271526s;58028;8553;570;569;6,65%;;87;87;15,29%;1;0;1
+;gripper;instance 11;Cheran;add+cg;lazy_greedy;0.0297509s;0.0241157s;58604;10924;670;669;6,12%;;95;95;14,20%;1;0;1
+;gripper;instance 12;Cheran;add+cg;lazy_greedy;0.0451753s;0.0388207s;59168;13699;778;777;5,67%;;103;103;13,26%;1;0;1
+;gripper;instance 13;Cheran;add+cg;lazy_greedy;0.0478893s;0.0398551s;59988;16910;894;893;5,28%;;111;111;12,43%;1;0;1
+;gripper;instance 14;Cheran;add+cg;lazy_greedy;0.0527571s;0.0443421s;60740;20589;1018;1017;4,94%;;119;119;11,70%;1;0;1
+;gripper;instance 15;Cheran;add+cg;lazy_greedy;0.0609572s;0.0512477s;61684;24768;1150;1149;4,64%;;127;127;11,05%;1;0;1
+;gripper;instance 16;Cheran;add+cg;lazy_greedy;0.0548008s;0.0456647s;62808;29479;1290;1289;4,37%;;135;135;10,47%;1;0;1
+;gripper;instance 17;Cheran;add+cg;lazy_greedy;0.0698587s;0.0596735s;64020;34754;1438;1437;4,13%;;143;143;9,95%;1;0;1
+;gripper;instance 18;Cheran;add+cg;lazy_greedy;0.0769257s;0.0663687s;65348;40625;1594;1593;3,92%;;151;151;9,48%;1;0;1
+;gripper;instance 19;Cheran;add+cg;lazy_greedy;0.0918151s;0.0806886s;66848;47124;1758;1757;3,73%;;159;159;9,05%;1;0;1
+;gripper;instance 20;Cheran;add+cg;lazy_greedy;0.0929404s;0.0798957s;68596;54283;1930;1929;3,55%;;167;167;8,66%;1;0;1
+;gripper;instance 1;Cheran;cg;lazy_greedy;0.00581775s;0.00206477s;56124;128;34;33;25,78%;;15;15;45,45%;1;0;1
+;gripper;instance 2;Cheran;cg;lazy_greedy;0.00702398s;0.00334314s;56260;408;90;89;21,81%;;23;23;25,84%;1;0;1
+;gripper;instance 3;Cheran;cg;lazy_greedy;0.00793363s;0.00461813s;56256;960;194;193;20,10%;;31;31;16,06%;1;0;1
+;gripper;instance 4;Cheran;cg;lazy_greedy;0.00952797s;0.0058077s;56388;1880;362;361;19,20%;;39;39;10,80%;1;0;1
+;gripper;instance 5;Cheran;cg;lazy_greedy;0.0113687s;0.00696394s;56540;3264;610;609;18,66%;;47;47;7,72%;1;0;1
+;gripper;instance 6;Cheran;cg;lazy_greedy;0.0126229s;0.0089421s;56680;5208;954;953;18,30%;;55;55;5,77%;1;0;1
+;gripper;instance 7;Cheran;cg;lazy_greedy;0.0188768s;0.013875s;56984;7808;1410;1409;18,05%;;63;63;4,47%;1;0;1
+;gripper;instance 8;Cheran;cg;lazy_greedy;0.0170556s;0.0127622s;57164;11160;1994;1993;17,86%;;71;71;3,56%;1;0;1
+;gripper;instance 9;Cheran;cg;lazy_greedy;0.0250407s;0.0203783s;57600;15360;2722;2721;17,71%;;79;79;2,90%;1;0;1
+;gripper;instance 10;Cheran;cg;lazy_greedy;0.0304716s;0.0240113s;58056;20504;3610;3609;17,60%;;87;87;2,41%;1;0;1
+;gripper;instance 11;Cheran;cg;lazy_greedy;0.0391878s;0.0322603s;58576;26688;4674;4673;17,51%;;95;95;2,03%;1;0;1
+;gripper;instance 12;Cheran;cg;lazy_greedy;0.045607s;0.0386585s;59268;34008;5930;5929;17,43%;;103;103;1,74%;1;0;1
+;gripper;instance 13;Cheran;cg;lazy_greedy;0.0534627s;0.0457946s;60056;42560;7394;7393;17,37%;;111;111;1,50%;1;0;1
+;gripper;instance 14;Cheran;cg;lazy_greedy;0.0696281s;0.0612631s;60968;52440;9082;9081;17,32%;;119;119;1,31%;1;0;1
+;gripper;instance 15;Cheran;cg;lazy_greedy;0.0837974s;0.0748248s;61972;63744;11010;11009;17,27%;;127;127;1,15%;1;0;1
+;gripper;instance 16;Cheran;cg;lazy_greedy;0.0942923s;0.0854141s;63156;76568;13194;13193;17,23%;;135;135;1,02%;1;0;1
+;gripper;instance 17;Cheran;cg;lazy_greedy;0.0989021s;0.089194s;64628;91008;15650;15649;17,20%;;143;143;0,91%;1;0;1
+;gripper;instance 18;Cheran;cg;lazy_greedy;0.120373s;0.110421s;65900;107160;18394;18393;17,16%;;151;151;0,82%;1;0;1
+;gripper;instance 19;Cheran;cg;lazy_greedy;0.148475s;0.137303s;67568;125120;21442;21441;17,14%;;159;159;0,74%;1;0;1
+;gripper;instance 20;Cheran;cg;lazy_greedy;0.166278s;0.155038s;69360;144984;24810;24809;17,11%;;167;167;0,67%;1;0;1
+;psr;instance 1;Ryusei;add;lazy_greedy;0.108677s;0.0719032s;59688;759;463;462;60,87%;;41;41;8,87%;1;0;1
+;psr;instance 2;Ryusei;add;lazy_greedy;0.0648602s;0.0282001s;59692;295;183;182;61,69%;;32;32;17,58%;1;0;1
+;psr;instance 3;Ryusei;add;lazy_greedy;0.123792s;0.0685859s;61156;497;304;303;60,97%;;53;53;17,49%;1;0;1
+;psr;instance 4;Ryusei;add;lazy_greedy;0.794741s;0.693212s;64716;1934;3280;1933;99,95%;;46;46;2,38%;1;0;1
+;psr;instance 5;Ryusei;add;lazy_greedy;0.223145s;0.14316s;63496;814;471;470;57,74%;;56;56;11,91%;1;0;1
+;psr;instance 6;Ryusei;add;lazy_greedy;0.319993s;0.255807s;62088;1698;1024;1023;60,25%;;87;87;8,50%;1;0;1
+;psr;instance 7;Ryusei;add;lazy_greedy;0.392273s;0.220548s;70076;597;361;360;60,30%;;36;36;10,00%;1;0;1
+;psr;instance 8;Ryusei;add;lazy_greedy;0.198616s;0.134447s;62412;871;525;524;60,16%;;88;88;16,79%;1;0;1
+;psr;instance 9;Ryusei;add;lazy_greedy;0.111211s;0.0704288s;60232;703;407;406;57,75%;;40;40;9,85%;1;0;1
+;psr;instance 10;Ryusei;add;lazy_greedy;11.2427s;11.0443s;71620;28951;17896;17895;61,81%;;99;99;0,55%;1;0;1
+;psr;instance 11;Ryusei;add;lazy_greedy;;;;;;;#DIV/0!;;;0;#DIV/0!;#DIV/0!;0;0
+;psr;instance 12;Ryusei;add;lazy_greedy;12.4522s;12.1108s;78456;22994;12161;12160;52,88%;;72;72;0,59%;1;0;1
+;psr;instance 13;Ryusei;add;lazy_greedy;2.17886s;2.01435s;69896;5554;3437;3436;61,87%;;175;175;5,09%;1;0;1
+;psr;instance 14;Ryusei;add;lazy_greedy;21.3589s;21.0025s;78972;18317;9340;9339;50,99%;;62;62;0,66%;1;0;1
+;psr;instance 15;Ryusei;add;lazy_greedy;;;;;;;#DIV/0!;;;0;#DIV/0!;#DIV/0!;0;0
+;psr;instance 16;Ryusei;add;lazy_greedy;40.3924s;39.8912s;84604;45852;27843;27842;60,72%;;210;210;0,75%;1;0;1
+;psr;instance 17;Ryusei;add;lazy_greedy;4.3692s;3.82646s;89200;3902;2332;2331;59,74%;;60;60;2,57%;1;0;1
+;psr;instance 18;Ryusei;add;lazy_greedy;24.5959s;24.2391s;83396;35976;18554;18553;51,57%;;71;71;0,38%;1;0;1
+;psr;instance 19;Ryusei;add;lazy_greedy;3.91256s;3.43372s;84500;4876;2486;2485;50,96%;;56;56;2,25%;1;0;1
+;psr;instance 20;Ryusei;add;lazy_greedy;20.894s;20.1059s;97836;16160;9323;9322;57,69%;;142;142;1,52%;1;0;1
+;psr;instance 1;Ryusei;cg;lazy_greedy;2.88436s;0.435598s;670252;16443;8851;8850;53,82%;;75;75;0,85%;1;0;1
+;psr;instance 2;Ryusei;cg;lazy_greedy;2.44763s;0.011047s;948772;335;195;194;57,91%;;32;32;16,49%;1;0;1
+;psr;instance 3;Ryusei;cg;lazy_greedy;5.5228s;0.076314s;1325196;1693;1027;1026;60,60%;;98;98;9,55%;1;0;1
+;psr;instance 4;Ryusei;cg;lazy_greedy;25.4836s;19.5205s;527020;401011;230810;230809;57,56%;;64;64;0,03%;1;0;1
+;psr;instance 5;Ryusei;cg;lazy_greedy;4.15113s;0.0430581s;193108;1051;567;566;53,85%;;56;56;9,89%;1;0;1
+;psr;instance 6;Ryusei;cg;lazy_greedy;3.30267s;0.373666s;211192;10785;5378;5377;49,86%;;174;174;3,24%;1;0;1
+;psr;instance 7;Ryusei;cg;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;0;0
+;psr;instance 8;Ryusei;cg;lazy_greedy;4.36774s;1.39583s;164920;31198;17315;17314;55,50%;;54;54;0,31%;1;0;1
+;psr;instance 9;Ryusei;cg;lazy_greedy;1.93887s;0.0288967s;1268052;1081;504;503;46,53%;;40;40;7,95%;1;0;1
+;psr;instance 10;Ryusei;cg;lazy_greedy;43.4751s;28.5672s;473900;415124;219634;219633;52,91%;;151;151;0,07%;1;0;1
+;psr;instance 11;Ryusei;cg;lazy_greedy;;;;;;;#DIV/0!;;;0;#DIV/0!;#DIV/0!;0;0
+;psr;instance 12;Ryusei;cg;lazy_greedy;29.8144s;2.01111s;704492;26474;13450;13449;50,80%;;72;72;0,54%;1;0;1
+;psr;instance 13;Ryusei;cg;lazy_greedy;16.6658s;6.34236s;336716;84564;44515;44514;52,64%;;246;246;0,55%;1;0;1
+;psr;instance 14;Ryusei;cg;lazy_greedy;31.9028s;1.31814s;701168;18431;9116;9115;49,45%;;62;62;0,68%;1;0;1
+;psr;instance 15;Ryusei;cg;lazy_greedy;103.393s;58.4211s;951328;409103;225663;225662;55,16%;;245;245;0,11%;1;0;1
+;psr;instance 16;Ryusei;cg;lazy_greedy;;;;;;;#DIV/0!;;;0;#DIV/0!;#DIV/0!;0;0
+;psr;instance 17;Ryusei;cg;lazy_greedy;54.7543s;0.457755s;1048040;3518;2065;2064;58,67%;;84;84;4,07%;1;0;1
+;psr;instance 18;Ryusei;cg;lazy_greedy;43.1494s;1.26962s;894368;17569;6654;6653;37,87%;;72;72;1,08%;1;0;1
+;psr;instance 19;Ryusei;cg;lazy_greedy;;;;;;;#DIV/0!;;;0;#DIV/0!;#DIV/0!;0;0
+;psr;instance 20;Ryusei;cg;lazy_greedy;;;;;;;#DIV/0!;;;0;#DIV/0!;#DIV/0!;0;0
+;psr;instance 1;Ryusei;add+cg;lazy_greedy;1.65299s;0.17736s;670736;1456;884;883;60,65%;;75;75;8,49%;1;0;1
+;psr;instance 2;Ryusei;add+cg;lazy_greedy;1.7266s;0.0393338s;949872;311;186;185;59,49%;;32;32;17,30%;1;0;1
+;psr;instance 3;Ryusei;add+cg;lazy_greedy;3.07722s;0.117015s;1326756;642;396;395;61,53%;;53;53;13,42%;1;0;1
+;psr;instance 4;Ryusei;add+cg;lazy_greedy;6.86172s;0.868979s;494856;3264;1964;1963;60,14%;;46;46;2,34%;1;0;1
+;psr;instance 5;Ryusei;add+cg;lazy_greedy;4.63084s;0.197324s;195540;925;549;548;59,24%;;56;56;10,22%;1;0;1
+;psr;instance 6;Ryusei;add+cg;lazy_greedy;4.20742s;0.848926s;212764;3477;2122;2121;61,00%;;150;150;7,07%;1;0;1
+;psr;instance 7;Ryusei;add+cg;lazy_greedy;12.2442s;0.388391s;429296;864;529;528;61,11%;;36;36;6,82%;1;0;1
+;psr;instance 8;Ryusei;add+cg;lazy_greedy;2.97542s;0.189582s;166956;997;599;598;59,98%;;86;86;14,38%;1;0;1
+;psr;instance 9;Ryusei;add+cg;lazy_greedy;2.01351s;0.0889669s;1269316;678;389;388;57,23%;;40;40;10,31%;1;0;1
+;psr;instance 10;Ryusei;add+cg;lazy_greedy;32.8361s;18.0546s;478888;34434;21118;21117;61,33%;;99;99;0,47%;1;0;1
+;psr;instance 11;Ryusei;add+cg;lazy_greedy;16.2213s;6.2473s;354296;16523;9601;9600;58,10%;;114;114;1,19%;1;0;1
+;psr;instance 12;Ryusei;add+cg;lazy_greedy;45.3135s;17.0146s;711416;24505;13233;13232;54,00%;;72;72;0,54%;1;0;1
+;psr;instance 13;Ryusei;add+cg;lazy_greedy;19.5639s;8.8807s;341368;17849;11200;11199;62,74%;;183;183;1,63%;1;0;1
+;psr;instance 14;Ryusei;add+cg;lazy_greedy;42.6438s;11.5857s;708148;18399;9386;9385;51,01%;;62;62;0,66%;1;0;1
+;psr;instance 15;Ryusei;add+cg;lazy_greedy;;;;;;;#DIV/0!;;;0;#DIV/0!;#DIV/0!;0;0
+;psr;instance 16;Ryusei;add+cg;lazy_greedy;110.909s;73.2798s;902036;72723;42816;42815;58,87%;;210;210;0,49%;1;0;1
+;psr;instance 17;Ryusei;add+cg;lazy_greedy;58.9863s;4.9686s;1058864;4279;2590;2589;60,50%;;60;60;2,32%;1;0;1
+;psr;instance 18;Ryusei;add+cg;lazy_greedy;;;;;;-1;#DIV/0!;;;0;0,00%;#DIV/0!;0;0
+;psr;instance 19;Ryusei;add+cg;lazy_greedy;43.8989s;5.09726s;902988;5845;3217;3216;55,02%;;72;72;2,24%;1;0;1
+;psr;instance 20;Ryusei;add+cg;lazy_greedy;102.147s;27.0778s;1410344;16819;9696;9695;57,64%;;142;142;1,46%;1;0;1
+;psr;instance 1;Ryusei;add;eager_greedy;0.115771s;0.0768252s;59688;667;463;373;55,92%;;40;8;10,72%;5;0;1
+;psr;instance 2;Ryusei;add;eager_greedy;0.0660906s;0.0282395s;59692;250;183;145;58,00%;;32;9;22,07%;3,555555556;0;1
+;psr;instance 3;Ryusei;add;eager_greedy;0.193846s;0.0868061s;61156;418;304;225;53,83%;;53;53;23,56%;1;0;1
+;psr;instance 4;Ryusei;add;eager_greedy;0.952717s;0.809576s;64716;2810;1934;1592;56,65%;;46;46;2,89%;1;0;1
+;psr;instance 5;Ryusei;add;eager_greedy;0.220629s;0.141757s;63496;639;471;351;54,93%;;56;56;15,95%;1;0;1
+;psr;instance 6;Ryusei;add;eager_greedy;0.343195s;0.263729s;62088;1465;1027;810;55,29%;;86;86;10,62%;1;0;1
+;psr;instance 7;Ryusei;add;eager_greedy;0.394143s;0.21842s;70076;499;361;269;53,91%;;35;35;13,01%;1;0;1
+;psr;instance 8;Ryusei;add;eager_greedy;0.194889s;0.131054s;62412;744;525;398;53,49%;;88;88;22,11%;1;0;1
+;psr;instance 9;Ryusei;add;eager_greedy;0.111996s;0.0699267s;60232;610;408;319;52,30%;;40;40;12,54%;1;0;1
+;psr;instance 10;Ryusei;add;eager_greedy;11.2843s;11.0891s;71620;26561;17896;15506;58,38%;;99;99;0,64%;1;0;1
+;psr;instance 11;Ryusei;add;eager_greedy;;;;;;;#DIV/0!;;;0;#DIV/0!;#DIV/0!;0;0
+;psr;instance 12;Ryusei;add;eager_greedy;13.1279s;12.8144s;78456;1842;12161;8773;476,28%;;72;72;0,82%;1;0;1
+;psr;instance 13;Ryusei;add;eager_greedy;2.06611s;1.89336s;69896;5012;3437;2926;58,38%;;172;172;5,88%;1;0;1
+;psr;instance 14;Ryusei;add;eager_greedy;9.5095s;9.1394s;78972;16022;9340;7104;44,34%;;62;62;0,87%;1;0;1
+;psr;instance 15;Ryusei;add;eager_greedy;;;;;;;#DIV/0!;;;0;#DIV/0!;#DIV/0!;0;0
+;psr;instance 16;Ryusei;add;eager_greedy;39.6258s;39.2497s;84604;41358;27843;23350;56,46%;;174;174;0,75%;1;0;1
+;psr;instance 17;Ryusei;add;eager_greedy;4.25704s;3.67975s;89200;3413;2335;1863;54,59%;;60;60;3,22%;1;0;1
+;psr;instance 18;Ryusei;add;eager_greedy;24.0326s;23.5958s;83396;29964;18554;12986;43,34%;;71;71;0,55%;1;0;1
+;psr;instance 19;Ryusei;add;eager_greedy;4.46932s;3.95381s;84500;3970;2658;1780;44,84%;;56;#REF!;3,15%;#REF!;0;1
+;psr;instance 20;Ryusei;add;eager_greedy;21.4772s;20.6702s;97840;13749;9323;6924;50,36%;;142;142;2,05%;1;0;1
+;psr;instance 1;Ryusei;cg;eager_greedy;1.81978s;0.44334s;670192;14854;8851;7646;51,47%;;72;72;0,94%;1;0;1
+;psr;instance 2;Ryusei;cg;eager_greedy;1.50295s;0.00885925s;948772;274;195;161;58,76%;;32;32;19,88%;1;0;1
+;psr;instance 3;Ryusei;cg;eager_greedy;3.03374s;0.0762628s;1325200;1502;1027;864;57,52%;;98;98;11,34%;1;0;1
+;psr;instance 4;Ryusei;cg;eager_greedy;22.2143s;16.5492s;527048;374560;229132;208548;55,68%;;64;64;0,03%;1;0;1
+;psr;instance 5;Ryusei;cg;eager_greedy;3.63172s;0.0416259s;193108;797;565;456;57,21%;;56;56;12,28%;1;0;1
+;psr;instance 6;Ryusei;cg;eager_greedy;3.41848s;0.249958s;211056;5564;3751;3193;57,39%;;146;146;4,57%;1;0;1
+;psr;instance 7;Ryusei;cg;eager_greedy;;;;;;;#DIV/0!;;;0;#DIV/0!;#DIV/0!;0;0
+;psr;instance 8;Ryusei;cg;eager_greedy;4.35874s;1.21821s;164920;28379;17315;14571;51,34%;;54;54;0,37%;1;0;1
+;psr;instance 9;Ryusei;cg;eager_greedy;1.75791s;0.0288198s;1268100;658;436;351;53,34%;;40;40;11,40%;1;0;1
+;psr;instance 10;Ryusei;cg;eager_greedy;43.3596s;28.4954s;473932;365346;219634;177941;48,70%;;145;145;0,08%;1;0;1
+;psr;instance 11;Ryusei;cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;0;0
+;psr;instance 12;Ryusei;cg;eager_greedy;29.7531s;2.01729s;704512;20702;13459;10292;49,72%;;72;72;0,70%;1;0;1
+;psr;instance 13;Ryusei;cg;eager_greedy;15.3471s;5.29126s;336660;55369;33708;33708;60,88%;;180;180;0,53%;1;0;1
+;psr;instance 14;Ryusei;cg;eager_greedy;33.6179s;1.31054s;701216;15686;9126;6874;43,82%;;62;62;0,90%;1;0;1
+;psr;instance 15;Ryusei;cg;eager_greedy;;;;;;;#DIV/0!;;;72;#DIV/0!;0;0;0
+;psr;instance 16;Ryusei;cg;eager_greedy;;;;;;;#DIV/0!;;;0;#DIV/0!;#DIV/0!;0;0
+;psr;instance 17;Ryusei;cg;eager_greedy;53.503s;0.453587s;1048040;2977;2065;1524;51,19%;;84;84;5,51%;1;0;1
+;psr;instance 18;Ryusei;cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;0;0
+;psr;instance 19;Ryusei;cg;eager_greedy;43.3982s;1.05502s;894368;8497;5671;4746;55,86%;;72;#REF!;1,52%;#REF!;0;1
+;psr;instance 20;Ryusei;cg;eager_greedy;;;;;;;#DIV/0!;;;0;#DIV/0!;#DIV/0!;0;0
+;psr;instance 1;Ryusei;add+cg;eager_greedy;1.52238s;0.160556s;670620;1384;937;779;56,29%;;75;75;9,63%;1;0;1
+;psr;instance 2;Ryusei;add+cg;eager_greedy;1.5889s;0.0307056s;949992;250;183;145;58,00%;;32;32;22,07%;1;0;1
+;psr;instance 3;Ryusei;add+cg;eager_greedy;3.11246s;0.102023s;1326736;792;396;309;39,02%;;53;53;17,15%;1;0;1
+;psr;instance 4;Ryusei;add+cg;eager_greedy;6.05553s;0.851987s;494852;3300;2247;1910;57,88%;;46;46;2,41%;1;0;1
+;psr;instance 5;Ryusei;add+cg;eager_greedy;3.93009s;0.184583s;195524;773;549;440;56,92%;;56;56;12,73%;1;0;1
+;psr;instance 6;Ryusei;add+cg;eager_greedy;3.4932s;0.719169s;212656;3554;2422;2003;56,36%;;127;127;6,34%;1;0;1
+;psr;instance 7;Ryusei;add+cg;eager_greedy;12.1021s;0.301603s;429296;565;407;315;55,75%;;36;36;11,43%;1;0;1
+;psr;instance 8;Ryusei;add+cg;eager_greedy;3.42574s;0.170117s;166944;848;600;450;53,07%;;86;86;19,11%;1;0;1
+;psr;instance 9;Ryusei;add+cg;eager_greedy;1.77585s;0.080155s;1269320;625;417;329;52,64%;;40;40;12,16%;1;0;1
+;psr;instance 10;Ryusei;add+cg;eager_greedy;32.7047s;16.702s;478908;33173;22311;19089;57,54%;;99;99;0,52%;1;0;1
+;psr;instance 11;Ryusei;add+cg;eager_greedy;20.2891s;10.4142s;354316;28929;18425;15766;54,50%;;115;115;0,73%;1;0;1
+;psr;instance 12;Ryusei;add+cg;eager_greedy;44.1669s;16.553s;711416;20196;13171;9949;49,26%;;72;72;0,72%;1;0;1
+;psr;instance 13;Ryusei;add+cg;eager_greedy;15.8492s;4.90813s;341352;10355;6995;6272;60,57%;;172;172;2,74%;1;0;1
+;psr;instance 14;Ryusei;add+cg;eager_greedy;41.9495s;10.611s;708140;16048;9356;7121;44,37%;;62;62;0,87%;1;0;1
+;psr;instance 15;Ryusei;add+cg;eager_greedy;;;;;;;#DIV/0!;;;0;#DIV/0!;#DIV/0!;0;0
+;psr;instance 16;Ryusei;add+cg;eager_greedy;117.488s;78.1258s;902036;71712;48078;37769;52,67%;;174;174;0,46%;1;0;1
+;psr;instance 17;Ryusei;add+cg;eager_greedy;61.8432s;4.61677s;1058864;3832;2593;2143;55,92%;;60;60;2,80%;1;0;1
+;psr;instance 18;Ryusei;add+cg;eager_greedy;84.3438s;45.3162s;813160;50545;31730;24811;49,09%;;71;71;0,29%;1;0;1
+;psr;instance 19;Ryusei;add+cg;eager_greedy;46.1599s;4.1765s;902988;4232;2805;1954;46,17%;;56;56;2,87%;1;0;1
+;psr;instance 20;Ryusei;add+cg;eager_greedy;103.556s;24.281s;1410360;14388;9717;7255;50,42%;;142;142;1,96%;1;0;1
+;airport;instance 1;Ryusei;add;lazy_greedy;0.00395662s;0.0013213s;56128;18;10;9;50,00%;;8;8;88,89%;1;0;1
+;airport;instance 2;Ryusei;add;lazy_greedy;0.00450715s;0.00125985s;56128;22;14;11;50,00%;;9;9;81,82%;1;0;1
+;airport;instance 3;Ryusei;add;lazy_greedy;0.00897074s;0.00488249s;56260;122;58;33;27,05%;;17;17;51,52%;1;0;1
+;airport;instance 4;Ryusei;add;lazy_greedy;0.0054812s;0.00244697s;56264;40;23;20;50,00%;;20;20;100,00%;1;0;1
+;airport;instance 5;Ryusei;add;lazy_greedy;0.00528736s;0.00183356s;56260;47;27;24;51,06%;;21;21;87,50%;1;0;1
+;airport;instance 6;Ryusei;add;lazy_greedy;0.0126102s;0.00629584s;56524;361;182;92;25,48%;;41;41;44,57%;1;0;1
+;airport;instance 7;Ryusei;add;lazy_greedy;0.0130314s;0.00719227s;56524;361;182;92;25,48%;;41;41;44,57%;1;0;1
+;airport;instance 8;Ryusei;add;lazy_greedy;0.064953s;0.0564869s;56688;3594;1943;665;18,50%;;63;63;9,47%;1;0;1
+;airport;instance 9;Ryusei;add;lazy_greedy;0.12984s;0.118853s;57084;6379;3360;1046;16,40%;;74;74;7,07%;1;0;1
+;airport;instance 10;Ryusei;add;lazy_greedy;0.00580942s;0.00166157s;56260;37;21;18;48,65%;;18;18;100,00%;1;0;1
+;airport;instance 11;Ryusei;add;lazy_greedy;0.00879622s;0.00415652s;56260;47;27;24;51,06%;;21;21;87,50%;1;0;1
+;airport;instance 12;Ryusei;add;lazy_greedy;0.0196918s;0.0106659s;56536;203;105;62;30,54%;;39;39;62,90%;1;0;1
+;airport;instance 13;Ryusei;add;lazy_greedy;0.0172942s;0.0092224s;56536;322;172;82;25,47%;;37;37;45,12%;1;0;1
+;airport;instance 14;Ryusei;add;lazy_greedy;0.0359445s;0.0234917s;56788;803;422;191;23,79%;;61;61;31,94%;1;0;1
+;airport;instance 15;Ryusei;add;lazy_greedy;0.0565154s;0.0469661s;56792;2302;957;429;18,64%;;59;59;13,75%;1;0;1
+;airport;instance 16;Ryusei;add;lazy_greedy;0.169446s;0.156006s;57200;7455;3094;1128;15,13%;;81;81;7,18%;1;0;1
+;airport;instance 17;Ryusei;add;lazy_greedy;0.744032s;0.729079s;58512;36006;14108;4540;12,61%;;90;90;1,98%;1;0;1
+;airport;instance 18;Ryusei;add;lazy_greedy;0.535333s;0.518045s;58276;22267;8105;2693;12,09%;;110;110;4,08%;1;0;1
+;airport;instance 19;Ryusei;add;lazy_greedy;2.31312s;2.29898s;61564;103886;42130;10992;10,58%;;94;94;0,86%;1;0;1
+;airport;instance 20;Ryusei;add;lazy_greedy;3.29451s;3.27318s;63284;128602;43305;12283;9,55%;;120;120;0,98%;1;0;1
+;airport;instance 1;Ryusei;cg;lazy_greedy;0.00494245s;0.00158387s;57300;18;10;9;50,00%;;8;8;88,89%;1;0;1
+;airport;instance 2;Ryusei;cg;lazy_greedy;0.00695928s;0.0016659s;61008;23;14;12;52,17%;;9;9;75,00%;1;0;1
+;airport;instance 3;Ryusei;cg;lazy_greedy;0.016078s;0.00520158s;68448;116;54;35;30,17%;;17;17;48,57%;1;0;1
+;airport;instance 4;Ryusei;cg;lazy_greedy;0.0156347s;0.00660674s;64704;40;21;20;50,00%;;20;20;100,00%;1;0;1
+;airport;instance 5;Ryusei;cg;lazy_greedy;0.0112897s;0.00519381s;56788;48;27;25;52,08%;;21;21;84,00%;1;0;1
+;airport;instance 6;Ryusei;cg;lazy_greedy;0.0389498s;0.0091772s;102292;227;97;74;32,60%;;41;41;55,41%;1;0;1
+;airport;instance 7;Ryusei;cg;lazy_greedy;0.0382518s;0.0103014s;102292;268;106;78;29,10%;;43;43;55,13%;1;0;1
+;airport;instance 8;Ryusei;cg;lazy_greedy;0.0604858s;0.0265916s;107788;1119;620;282;25,20%;;65;65;23,05%;1;0;1
+;airport;instance 9;Ryusei;cg;lazy_greedy;0.247171s;0.194607s;130616;10766;6813;1905;17,69%;;76;76;3,99%;1;0;1
+;airport;instance 10;Ryusei;cg;lazy_greedy;0.00740457s;0.00337232s;56260;37;19;18;48,65%;;18;18;100,00%;1;0;1
+;airport;instance 11;Ryusei;cg;lazy_greedy;0.0106838s;0.00473453s;58984;48;27;25;52,08%;;21;21;84,00%;1;0;1
+;airport;instance 12;Ryusei;cg;lazy_greedy;0.036477s;0.00845322s;99724;221;90;65;29,41%;;39;39;60,00%;1;0;1
+;airport;instance 13;Ryusei;cg;lazy_greedy;0.0366819s;0.00963741s;98612;254;98;74;29,13%;;39;39;52,70%;1;0;1
+;airport;instance 14;Ryusei;cg;lazy_greedy;0.103092s;0.0304346s;191960;1272;762;338;26,57%;;61;61;18,05%;1;0;1
+;airport;instance 15;Ryusei;cg;lazy_greedy;0.121963s;0.0488161s;191964;2109;1238;448;21,24%;;61;61;13,62%;1;0;1
+;airport;instance 16;Ryusei;cg;lazy_greedy;7.3044s;7.26238s;131712;344349;237842;55580;16,14%;;83;83;0,15%;1;0;1
+;airport;instance 17;Ryusei;cg;lazy_greedy;37.4613s;37.3984s;211312;1420443;959823;189073;13,31%;;96;96;0,05%;1;0;1
+;airport;instance 18;Ryusei;cg;lazy_greedy;;;;;;;#DIV/0!;;;0;#DIV/0!;#DIV/0!;0;0
+;airport;instance 19;Ryusei;cg;lazy_greedy;43.7425s;43.534s;605464;1755394;1150870;219535;12,51%;;94;94;0,04%;1;0;1
+;airport;instance 20;Ryusei;cg;lazy_greedy;;;;;;;#DIV/0!;;;0;#DIV/0!;#DIV/0!;0;0
+;airport;instance 1;Ryusei;add+cg;lazy_greedy;0.00700258s;0.00269232s;57308;18;10;9;50,00%;;8;8;88,89%;1;0;1
+;airport;instance 2;Ryusei;add+cg;lazy_greedy;0.00729257s;0.00181053s;61020;22;12;11;50,00%;;9;9;81,82%;1;0;1
+;airport;instance 3;Ryusei;add+cg;lazy_greedy;0.0165607s;0.00531427s;68492;114;46;34;29,82%;;17;17;50,00%;1;0;1
+;airport;instance 4;Ryusei;add+cg;lazy_greedy;0.013556s;0.00582783s;64704;40;23;20;50,00%;;20;20;100,00%;1;0;1
+;airport;instance 5;Ryusei;add+cg;lazy_greedy;0.00791147s;0.00342907s;56788;49;26;25;51,02%;;21;21;84,00%;1;0;1
+;airport;instance 6;Ryusei;add+cg;lazy_greedy;0.043882s;0.0133074s;102376;243;72;63;25,93%;;41;41;65,08%;1;0;1
+;airport;instance 7;Ryusei;add+cg;lazy_greedy;0.043374s;0.0110004s;102376;243;72;63;25,93%;;41;41;65,08%;1;0;1
+;airport;instance 8;Ryusei;add+cg;lazy_greedy;0.126602s;0.0890781s;108056;3202;1487;683;21,33%;;63;63;9,22%;1;0;1
+;airport;instance 9;Ryusei;add+cg;lazy_greedy;0.217183s;0.167587s;130520;7469;2589;1232;16,49%;;74;74;6,01%;1;0;1
+;airport;instance 10;Ryusei;add+cg;lazy_greedy;0.0112189s;0.00566011s;56260;37;21;18;48,65%;;18;18;100,00%;1;0;1
+;airport;instance 11;Ryusei;add+cg;lazy_greedy;0.00979186s;0.00408278s;58980;49;26;25;51,02%;;21;21;84,00%;1;0;1
+;airport;instance 12;Ryusei;add+cg;lazy_greedy;0.0456027s;0.0138503s;99824;209;70;66;31,58%;;39;39;59,09%;1;0;1
+;airport;instance 13;Ryusei;add+cg;lazy_greedy;0.0437367s;0.0115048s;98716;231;76;60;25,97%;;37;37;61,67%;1;0;1
+;airport;instance 14;Ryusei;add+cg;lazy_greedy;0.104394s;0.0293437s;192088;795;261;193;24,28%;;61;61;31,61%;1;0;1
+;airport;instance 15;Ryusei;add+cg;lazy_greedy;0.101347s;0.0277052s;192096;777;198;152;19,56%;;59;59;38,82%;1;0;1
+;airport;instance 16;Ryusei;add+cg;lazy_greedy;0.173029s;0.128419s;109764;5590;1478;936;16,74%;;81;81;8,65%;1;0;1
+;airport;instance 17;Ryusei;add+cg;lazy_greedy;0.553105s;0.499675s;115660;22689;5179;3078;13,57%;;92;92;2,99%;1;0;1
+;airport;instance 18;Ryusei;add+cg;lazy_greedy;1.46607s;1.40216s;127528;56258;11751;6783;12,06%;;112;112;1,65%;1;0;1
+;airport;instance 19;Ryusei;add+cg;lazy_greedy;0.864695s;0.655739s;490796;28358;7286;3443;12,14%;;94;94;2,73%;1;0;1
+;airport;instance 20;Ryusei;add+cg;lazy_greedy;9.07114s;8.98993s;145928;327458;69718;34369;10,50%;;120;120;0,35%;1;0;1
+;airport;instance 1;Ryusei;add;eager_greedy;0.00498092s;0.0018226s;56128;16;17;9;56,25%;;8;8;88,89%;1;0;1
+;airport;instance 2;Ryusei;add;eager_greedy;0.00396527s;0.00153922s;56128;19;19;10;52,63%;;9;9;90,00%;1;0;1
+;airport;instance 3;Ryusei;add;eager_greedy;0.00757335s;0.00436945s;56260;94;89;26;27,66%;;17;17;65,38%;1;0;1
+;airport;instance 4;Ryusei;add;eager_greedy;0.00545655s;0.00223716s;56128;40;41;21;52,50%;;20;20;95,24%;1;0;1
+;airport;instance 5;Ryusei;add;eager_greedy;0.00873368s;0.00478043s;56260;43;44;22;51,16%;;21;21;95,45%;1;0;1
+;airport;instance 6;Ryusei;add;eager_greedy;0.0196973s;0.0118848s;56524;275;249;69;25,09%;;41;41;59,42%;1;0;1
+;airport;instance 7;Ryusei;add;eager_greedy;0.0180424s;0.0105893s;56524;126;249;61;48,41%;;41;41;67,21%;1;0;1
+;airport;instance 8;Ryusei;add;eager_greedy;0.0658129s;0.0572946s;56688;247;2016;461;186,64%;;62;62;13,45%;1;0;1
+;airport;instance 9;Ryusei;add;eager_greedy;0.132846s;0.121882s;57092;2363;3444;702;29,71%;;73;73;10,40%;1;0;1
+;airport;instance 10;Ryusei;add;eager_greedy;0.00497266s;0.00171217s;56260;37;38;19;51,35%;;18;18;94,74%;1;0;1
+;airport;instance 11;Ryusei;add;eager_greedy;0.00876103s;0.00484531s;56260;43;44;22;51,16%;;21;21;95,45%;1;0;1
+;airport;instance 12;Ryusei;add;eager_greedy;0.0126161s;0.00600714s;56536;122;12;41;33,61%;;39;39;95,12%;1;0;1
+;airport;instance 13;Ryusei;add;eager_greedy;0.0165448s;0.00911891s;56536;252;230;63;25,00%;;37;37;58,73%;1;0;1
+;airport;instance 14;Ryusei;add;eager_greedy;0.0429037s;0.033034s;56788;485;444;119;24,54%;;60;60;50,42%;1;0;1
+;airport;instance 15;Ryusei;add;eager_greedy;0.0526739s;0.0433899s;56792;1115;978;214;19,19%;;58;58;27,10%;1;0;1
+;airport;instance 16;Ryusei;add;eager_greedy;0.154075s;0.141344s;57192;3748;3116;565;15,07%;;79;79;13,98%;1;0;1
+;airport;instance 17;Ryusei;add;eager_greedy;0.709599s;0.694974s;58340;18056;14198;2323;12,87%;;88;88;3,79%;1;0;1
+;airport;instance 18;Ryusei;add;eager_greedy;0.518479s;0.500836s;58216;9902;8309;1305;13,18%;;107;107;8,20%;1;0;1
+;airport;instance 19;Ryusei;add;eager_greedy;2.25719s;2.24273s;61256;56029;42166;5866;10,47%;;92;92;1,57%;1;0;1
+;airport;instance 20;Ryusei;add;eager_greedy;3.03858s;3.02042s;62732;55353;43384;5297;9,57%;;117;117;2,21%;1;0;1
+;airport;instance 1;Ryusei;cg;eager_greedy;0.00466915s;0.00137716s;57300;16;17;9;56,25%;;8;8;88,89%;1;0;1
+;airport;instance 2;Ryusei;cg;eager_greedy;0.00695564s;0.00183664s;61008;20;20;11;55,00%;;9;9;81,82%;1;0;1
+;airport;instance 3;Ryusei;cg;eager_greedy;0.0148105s;0.0035059s;68448;87;82;26;29,89%;;17;17;65,38%;1;0;1
+;airport;instance 4;Ryusei;cg;eager_greedy;0.00990898s;0.00352285s;64704;40;41;21;52,50%;;20;20;95,24%;1;0;1
+;airport;instance 5;Ryusei;cg;eager_greedy;0.00854878s;0.00432942s;56788;44;45;23;52,27%;;21;21;91,30%;1;0;1
+;airport;instance 6;Ryusei;cg;eager_greedy;0.0410785s;0.0116752s;102292;152;143;53;34,87%;;41;41;77,36%;1;0;1
+;airport;instance 7;Ryusei;cg;eager_greedy;0.0377556s;0.0101334s;102292;190;181;43;22,63%;;57;57;132,56%;1;0;1
+;airport;instance 8;Ryusei;cg;eager_greedy;0.0599889s;0.0251998s;107788;858;711;222;25,87%;;64;64;28,83%;1;0;1
+;airport;instance 9;Ryusei;cg;eager_greedy;0.237373s;0.19065s;130612;9044;6961;1622;17,93%;;75;75;4,62%;1;0;1
+;airport;instance 10;Ryusei;cg;eager_greedy;0.00876833s;0.00465911s;56260;37;38;19;51,35%;;18;18;94,74%;1;0;1
+;airport;instance 11;Ryusei;cg;eager_greedy;0.0102566s;0.00491349s;58980;44;45;23;52,27%;;21;21;91,30%;1;0;1
+;airport;instance 12;Ryusei;cg;eager_greedy;0.0375034s;0.0107683s;99724;171;172;51;29,82%;;39;39;76,47%;1;0;1
+;airport;instance 13;Ryusei;cg;eager_greedy;0.0385228s;0.00935865s;98612;174;167;51;29,31%;;39;39;76,47%;1;0;1
+;airport;instance 14;Ryusei;cg;eager_greedy;0.225354s;0.0280732s;191960;1035;867;288;27,83%;;60;60;20,83%;1;0;1
+;airport;instance 15;Ryusei;cg;eager_greedy;0.111868s;0.0407704s;191964;1704;1400;362;21,24%;;60;60;16,57%;1;0;1
+;airport;instance 16;Ryusei;cg;eager_greedy;6.96523s;6.92396s;131544;324141;238136;52397;16,16%;;81;81;0,15%;1;0;1
+;airport;instance 17;Ryusei;cg;eager_greedy;34.3953s;34.3437s;210748;1350370;960053;180186;13,34%;;92;92;0,05%;1;0;1
+;airport;instance 18;Ryusei;cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;0;0
+;airport;instance 19;Ryusei;cg;eager_greedy;43.962s;43.6838s;609484;1822976;1202490;229372;12,58%;;92;92;0,04%;1;0;1
+;airport;instance 20;Ryusei;cg;eager_greedy;;;;;;;#DIV/0!;;;0;#DIV/0!;#DIV/0!;0;0
+;airport;instance 1;Ryusei;add+cg;eager_greedy;0.00680079s;0.00234867s;57308;16;17;9;56,25%;;8;8;88,89%;1;0;1
+;airport;instance 2;Ryusei;add+cg;eager_greedy;0.00720193s;0.00213173s;61020;20;20;11;55,00%;;9;9;81,82%;1;0;1
+;airport;instance 3;Ryusei;add+cg;eager_greedy;0.0154798s;0.00434322s;68492;76;74;22;28,95%;;17;17;77,27%;1;0;1
+;airport;instance 4;Ryusei;add+cg;eager_greedy;0.0113612s;0.00379567s;64704;40;41;21;52,50%;;20;20;95,24%;1;0;1
+;airport;instance 5;Ryusei;add+cg;eager_greedy;0.0109962s;0.00625424s;56788;44;45;23;52,27%;;21;21;91,30%;1;0;1
+;airport;instance 6;Ryusei;add+cg;eager_greedy;0.0516712s;0.0183155s;102388;240;228;61;25,42%;;41;41;67,21%;1;0;1
+;airport;instance 7;Ryusei;add+cg;eager_greedy;0.0534189s;0.0222523s;102368;240;228;61;25,42%;;41;41;67,21%;1;0;1
+;airport;instance 8;Ryusei;add+cg;eager_greedy;0.124261s;0.0868671s;108064;1599;1356;342;21,39%;;62;62;18,13%;1;0;1
+;airport;instance 9;Ryusei;add+cg;eager_greedy;0.248554s;0.197158s;130560;3927;3052;662;16,86%;;73;73;11,03%;1;0;1
+;airport;instance 10;Ryusei;add+cg;eager_greedy;0.00733522s;0.00329473s;56260;37;38;19;51,35%;;18;18;94,74%;1;0;1
+;airport;instance 11;Ryusei;add+cg;eager_greedy;0.0100239s;0.00451042s;58980;44;45;23;52,27%;;21;21;91,30%;1;0;1
+;airport;instance 12;Ryusei;add+cg;eager_greedy;0.0512482s;0.0193545s;99824;185;174;56;30,27%;;39;39;69,64%;1;0;1
+;airport;instance 13;Ryusei;add+cg;eager_greedy;0.0481718s;0.0173652s;98716;211;200;54;25,59%;;37;37;68,52%;1;0;1
+;airport;instance 14;Ryusei;add+cg;eager_greedy;0.104088s;0.0307462s;192088;348;323;90;25,86%;;60;60;66,67%;1;0;1
+;airport;instance 15;Ryusei;add+cg;eager_greedy;0.117082s;0.0435299s;192092;478;458;92;19,25%;;58;58;63,04%;1;0;1
+;airport;instance 16;Ryusei;add+cg;eager_greedy;0.190772s;0.147078s;109696;1952;1721;363;18,60%;;79;79;21,76%;1;0;1
+;airport;instance 17;Ryusei;add+cg;eager_greedy;0.598901s;0.542311s;115532;7236;5882;1079;14,91%;;90;90;8,34%;1;0;1
+;airport;instance 18;Ryusei;add+cg;eager_greedy;1.13548s;1.06677s;126772;10729;8945;1438;13,40%;;109;109;7,58%;1;0;1
+;airport;instance 19;Ryusei;add+cg;eager_greedy;1.0868s;0.864445s;490732;9963;8322;1295;13,00%;;92;92;7,10%;1;0;1
+;airport;instance 20;Ryusei;add+cg;eager_greedy;7.82669s;7.75176s;142408;81407;63337;9526;11,70%;;117;117;1,23%;1;0;1
+;opt tel;instance 1;Marta;add;lazy_greedy;0.177671s;0.162684s;56988;12590;7266;2383;18,93%;;36;36;1,51%;1;4882;1
+;opt tel;instance 2;Marta;add;lazy_greedy;3.25398s;3.23198s;62732;166657;87745;22918;13,75%;;54;54;0,24%;1;64826;1
+;opt tel;instance 3;Marta;add;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 4;Marta;add;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 5;Marta;add;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 6;Marta;add;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 7;Marta;add;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 8;Marta;add;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 9;Marta;add;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 10;Marta;add;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 11;Marta;add;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 12;Marta;add;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 13;Marta;add;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 14;Marta;add;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 1;Marta;cg;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 2;Marta;cg;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 3;Marta;cg;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 4;Marta;cg;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 5;Marta;cg;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 6;Marta;cg;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 7;Marta;cg;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 8;Marta;cg;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 9;Marta;cg;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 10;Marta;cg;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 11;Marta;cg;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 12;Marta;cg;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 13;Marta;cg;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 14;Marta;cg;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 1;Marta;add+cg;lazy_greedy;1.14436s;1.1035s;68340;29504;9978;8290;28,10%;;36;36;0,43%;1;1687;1
+;opt tel;instance 2;Marta;add+cg;lazy_greedy;12.51s;12.4642s;87032;613542;133202;112995;18,42%;;54;54;0,05%;1;20206;1
+;opt tel;instance 3;Marta;add+cg;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 4;Marta;add+cg;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 5;Marta;add+cg;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 6;Marta;add+cg;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 7;Marta;add+cg;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 8;Marta;add+cg;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 9;Marta;add+cg;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 10;Marta;add+cg;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 11;Marta;add+cg;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 12;Marta;add+cg;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 13;Marta;add+cg;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 14;Marta;add+cg;lazy_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 1;Marta;add;eager_greedy;0.167671s;0.156669s;56984;11795;7310;2169;18,39%;;36;36;1,66%;1;4895;1
+;opt tel;instance 2;Marta;add;eager_greedy;3.20327s;3.18402s;62624;150320;87837;19947;13,27%;;54;54;0,27%;1;64846;1
+;opt tel;instance 3;Marta;add;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 4;Marta;add;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 5;Marta;add;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 6;Marta;add;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 7;Marta;add;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 8;Marta;add;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 9;Marta;add;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 10;Marta;add;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 11;Marta;add;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 12;Marta;add;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 13;Marta;add;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 14;Marta;add;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 1;Marta;cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 2;Marta;cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 3;Marta;cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 4;Marta;cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 5;Marta;cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 6;Marta;cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 7;Marta;cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 8;Marta;cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 9;Marta;cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 10;Marta;cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 11;Marta;cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 12;Marta;cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 13;Marta;cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 14;Marta;cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 1;Marta;add+cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 2;Marta;add+cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 3;Marta;add+cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 4;Marta;add+cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 5;Marta;add+cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 6;Marta;add+cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 7;Marta;add+cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 8;Marta;add+cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 9;Marta;add+cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 10;Marta;add+cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 11;Marta;add+cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 12;Marta;add+cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 13;Marta;add+cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;opt tel;instance 14;Marta;add+cg;eager_greedy;;;;;;;#DIV/0!;;;;#DIV/0!;#DIV/0!;;0
+;satelite;instance 1;Marta;add;lazy_greedy;0.0397128s;0.0122272s;59456;544;33;31;5,70%;;11;11;35,48%;1;1;1
+;satelite;instance 2;Marta;add;lazy_greedy;0.0385248s;0.0101358s;58676;621;35;33;5,31%;;11;11;33,33%;1;1;1
+;satelite;instance 3;Marta;add;lazy_greedy;0.133162s;0.0616214s;67236;2681;86;76;2,83%;;18;18;23,68%;1;9;1
+;satelite;instance 4;Marta;add;lazy_greedy;0.195273s;0.0766074s;74008;2560;75;68;2,66%;;17;17;25,00%;1;6;1
+;satelite;instance 5;Marta;add;lazy_greedy;0.779472s;0.471016s;95304;11616;172;149;1,28%;;19;19;12,75%;1;22;1
+;satelite;instance 1;Marta;cg;lazy_greedy;0.110073s;0.0194987s;132748;544;33;31;5,70%;;11;11;35,48%;1;1;1
+;satelite;instance 2;Marta;cg;lazy_greedy;0.0867687s;0.0164253s;104664;621;35;33;5,31%;;11;11;33,33%;1;1;1
+;satelite;instance 3;Marta;cg;lazy_greedy;0.184145s;0.0561154s;65724;2575;88;78;3,03%;;17;17;21,79%;1;9;1
+;satelite;instance 4;Marta;cg;lazy_greedy;0.253035s;0.0604323s;67332;2520;76;69;2,74%;;16;16;23,19%;1;6;1
+;satelite;instance 5;Marta;cg;lazy_greedy;0.758888s;0.273377s;83188;11616;172;149;1,28%;;19;19;12,75%;1;22;1
+;satelite;instance 1;Marta;add+cg;lazy_greedy;0.119908s;0.0220792s;134080;544;33;31;5,70%;;11;11;35,48%;1;1;1
+;satelite;instance 2;Marta;add+cg;lazy_greedy;0.0953594s;0.0170634s;105560;621;35;33;5,31%;;11;11;33,33%;1;1;1
+;satelite;instance 3;Marta;add+cg;lazy_greedy;0.245757s;0.104664s;69972;2681;87;76;2,83%;;18;18;23,68%;1;10;1
+;satelite;instance 4;Marta;add+cg;lazy_greedy;0.372s;0.155117s;74420;2520;76;69;2,74%;;16;16;23,19%;1;6;1
+;satelite;instance 5;Marta;add+cg;lazy_greedy;1.49903s;0.915961s;97912;11616;172;149;1,28%;;19;19;12,75%;1;22;1
+;satelite;instance 1;Marta;add;eager_greedy;0.0453185s;0.0191981s;59456;132;89;12;9,09%;;11;11;91,67%;1;3;1
+;satelite;instance 2;Marta;add;eager_greedy;0.0383585s;0.0162478s;58676;134;89;12;8,96%;;11;11;91,67%;1;3;1
+;satelite;instance 3;Marta;add;eager_greedy;0.224566s;0.151123s;67236;407;256;17;4,18%;;16;16;94,12%;1;21;1
+;satelite;instance 4;Marta;add;eager_greedy;0.36715s;0.25145s;74008;440;256;17;3,86%;;16;16;94,12%;1;21;1
+;satelite;instance 5;Marta;add;eager_greedy;1.4472s;1.12844s;95304;927;403;20;2,16%;;19;19;95,00%;1;26;1
+;satelite;instance 1;Marta;cg;eager_greedy;0.123227s;0.0355096s;132620;158;103;12;7,59%;;11;11;91,67%;1;5;1
+;satelite;instance 2;Marta;cg;eager_greedy;0.095028s;0.0260445s;104668;163;103;12;7,36%;;11;11;91,67%;1;5;1
+;satelite;instance 3;Marta;cg;eager_greedy;0.265781s;0.135582s;65724;443;269;17;3,84%;;16;16;94,12%;1;19;1
+;satelite;instance 4;Marta;cg;eager_greedy;0.354131s;0.153681s;67280;481;269;17;3,53%;;16;16;94,12%;1;19;1
+;satelite;instance 5;Marta;cg;eager_greedy;1.4503s;0.974748s;83188;1211;495;20;1,65%;;19;19;95,00%;1;44;1
+;satelite;instance 1;Marta;add+cg;eager_greedy;0.113649s;0.0396452s;105560;138;92;12;8,70%;;11;11;91,67%;1;4;1
+;satelite;instance 2;Marta;add+cg;eager_greedy;0.122049s;0.0482761s;105560;138;92;12;8,70%;;11;11;91,67%;1;4;1
+;satelite;instance 3;Marta;add+cg;eager_greedy;0.453106s;0.300091s;69944;431;265;17;3,94%;;16;16;94,12%;1;22;1
+;satelite;instance 4;Marta;add+cg;eager_greedy;0.664606s;0.433799s;74284;465;265;17;3,66%;;16;16;94,12%;1;22;1
+;satelite;instance 5;Marta;add+cg;eager_greedy;3.50156s;2.92035s;97912;1114;467;20;1,80%;;19;19;95,00%;1;43;1
+;elevator;instance 1;Ryusei;add;ehc;0.00240582s;0.000505s;56128;6;5;4;66,67%;;4;4;100,00%;1;0;1
+;elevator;instance 2;Ryusei;add;ehc;0.0023553s;0.000404s;56128;5;4;3;60,00%;;3;3;100,00%;1;0;1
+;elevator;instance 3;Ryusei;add;ehc;0.00327673s;0.000649s;56128;6;5;4;66,67%;;4;4;100,00%;1;0;1
+;elevator;instance 4;Ryusei;add;ehc;0.00282364s;0.000734s;56128;6;5;4;66,67%;;4;4;100,00%;1;0;1
+;elevator;instance 5;Ryusei;add;ehc;0.00222064s;0.000564s;56128;6;5;4;66,67%;;4;4;100,00%;1;0;1
+;elevator;instance 1;Ryusei;cg;ehc;0.00459304s;0.000737s;56128;6;5;4;66,67%;;4;4;100,00%;1;0;1
+;elevator;instance 2;Ryusei;cg;ehc;0.00294989s;0.000576s;56128;6;4;3;50,00%;;3;3;100,00%;1;0;1
+;elevator;instance 3;Ryusei;cg;ehc;0.00265129s;0.000527s;56128;6;5;4;66,67%;;4;4;100,00%;1;0;1
+;elevator;instance 4;Ryusei;cg;ehc;0.00235467s;0.000397s;56128;6;5;4;66,67%;;4;4;100,00%;1;0;1
+;elevator;instance 5;Ryusei;cg;ehc;0.00215746s;0.000356s;56128;6;5;4;66,67%;;4;4;100,00%;1;0;1
+;elevator;instance 1;Ryusei;add;lazy_greedy;0.00399939s;0.000668s;56128;7;5;4;57,14%;;4;4;100,00%;1;0;1
+;elevator;instance 2;Ryusei;add;lazy_greedy;0.00279858s;0.0009s;56128;6;4;3;50,00%;;3;3;100,00%;1;0;1
+;elevator;instance 3;Ryusei;add;lazy_greedy;0.0029288s;0.00062s;56128;7;5;4;57,14%;;4;4;100,00%;1;0;1
+;elevator;instance 4;Ryusei;add;lazy_greedy;0.00219409s;0.000494s;56128;7;5;4;57,14%;;4;4;100,00%;1;0;1
+;elevator;instance 5;Ryusei;add;lazy_greedy;0.00258544s;0.00079s;56128;7;5;4;57,14%;;4;4;100,00%;1;0;1
+;elevator;instance 1;Ryusei;cg;lazy_greedy;0.0029599s;0.000684s;56128;7;5;4;57,14%;;4;4;100,00%;1;0;1
+;elevator;instance 2;Ryusei;cg;lazy_greedy;0.00258147s;0.000518s;56128;6;4;3;50,00%;;3;3;100,00%;1;0;1
+;elevator;instance 3;Ryusei;cg;lazy_greedy;0.00260506s;0.000545s;56128;7;5;4;57,14%;;4;4;100,00%;1;0;1
+;elevator;instance 4;Ryusei;cg;lazy_greedy;0.00265374s;0.000615s;56128;7;5;4;57,14%;;4;4;100,00%;1;0;1
+;elevator;instance 5;Ryusei;cg;lazy_greedy;0.00340634s;0.000786s;56128;7;5;4;57,14%;;4;4;100,00%;1;0;1
+;elevator;instance 1;Ryusei;add+cg;lazy_greedy;0.00340885s;0.000878s;56128;7;5;4;57,14%;;4;4;100,00%;1;0;1
+;elevator;instance 2;Ryusei;add+cg;lazy_greedy;0.00328948s;0.000903s;56128;6;4;3;50,00%;;3;3;100,00%;1;0;1
+;elevator;instance 3;Ryusei;add+cg;lazy_greedy;0.00373229s;0.001226s;56128;7;5;4;57,14%;;4;4;100,00%;1;0;1
+;elevator;instance 4;Ryusei;add+cg;lazy_greedy;0.00334477s;0.00062s;56128;7;5;4;57,14%;;4;4;100,00%;1;0;1
+;elevator;instance 5;Ryusei;add+cg;lazy_greedy;0.00419978s;0.00115s;56128;7;5;4;57,14%;;4;4;100,00%;1;0;1
+;elevator;instance 1;Ryusei;add;eager_greedy;0.00258726s;0.000797s;56128;7;5;4;57,14%;;4;4;100,00%;1;0;1
+;elevator;instance 2;Ryusei;add;eager_greedy;0.00351319s;0.001524s;56128;6;5;4;66,67%;;4;4;100,00%;1;0;1
+;elevator;instance 3;Ryusei;add;eager_greedy;0.00340357s;0.001077s;56128;7;5;4;57,14%;;4;4;100,00%;1;0;1
+;elevator;instance 4;Ryusei;add;eager_greedy;0.00284568s;0.000603s;56128;7;5;5;71,43%;;4;4;80,00%;1;0;1
+;elevator;instance 5;Ryusei;add;eager_greedy;0.00269093s;0.000804s;56128;7;5;5;71,43%;;4;4;80,00%;1;0;1
+;elevator;instance 1;Ryusei;cg;eager_greedy;0.00290587s;0.00071s;56128;7;5;5;71,43%;;4;4;80,00%;1;0;1
+;elevator;instance 2;Ryusei;cg;eager_greedy;0.00276942s;0.000614s;56128;6;5;4;66,67%;;3;3;75,00%;1;0;1
+;elevator;instance 3;Ryusei;cg;eager_greedy;0.00259168s;0.000629s;56128;7;5;5;71,43%;;4;4;80,00%;1;0;1
+;elevator;instance 4;Ryusei;cg;eager_greedy;0.00405922s;0.000877s;56128;7;5;5;71,43%;;4;4;80,00%;1;0;1
+;elevator;instance 5;Ryusei;cg;eager_greedy;0.00318618s;0.000815s;56128;7;5;5;71,43%;;4;4;80,00%;1;0;1
+;elevator;instance 1;Ryusei;add+cg;eager_greedy;0.00372827s;0.00121s;56128;7;5;5;71,43%;;4;4;80,00%;1;0;1
+;elevator;instance 2;Ryusei;add+cg;eager_greedy;0.00345704s;0.000863s;56128;6;5;4;66,67%;;3;3;75,00%;1;0;1
+;elevator;instance 3;Ryusei;add+cg;eager_greedy;0.00402879s;0.00121s;56128;7;5;5;71,43%;;4;4;80,00%;1;0;1
+;elevator;instance 4;Ryusei;add+cg;eager_greedy;0.00471616s;0.001708s;56128;7;5;5;71,43%;;4;4;80,00%;1;0;1
+;elevator;instance 5;Ryusei;add+cg;eager_greedy;0,0032753;0.001034s;56128;7;5;5;71,43%;;4;4;80,00%;1;0;1
